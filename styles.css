@@ -1,0 +1,20 @@
+.container {
+  width: 300px;
+  height: 50px;
+  background-color: #d3d3d3;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 50px;
+  background-color: #90ee90;
+  transition: width 3s linear;
+}
+
+.load {
+  width: 100%;
+}
+.reset {
+  width: 0%;
+  /* background-color: #d3d3d3; */
+}
